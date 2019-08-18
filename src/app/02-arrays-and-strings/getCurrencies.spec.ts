@@ -5,9 +5,7 @@ describe('getCurrencies', () => {
         const result = getCurrencies();
         expect(result.length > 0).toBe(true);
     });
-});
 
-describe('getCurrencies', () => {
     it('should contain USD, EUR, and AUD', () => {
         const result = getCurrencies();
         expect(result).toContain('USD');
